@@ -1,0 +1,59 @@
+*{
+    box-sizing  : border-box;
+    // font-family : 'Raleway', sans-serif !important;
+}
+
+.navbar-brand{
+    width : 185px !important;
+
+    img{
+        width : 100%;
+    }
+}
+
+.page-head{
+    padding-left: 0;
+}
+
+
+table {
+    input{
+        outline-style    : none;
+        border-style     : none;
+        background-color : transparent;
+        padding          : 5px 0;
+        border-bottom    : 1px solid lightgray;
+
+        &:focus{
+            border-bottom : 1px solid gray;
+            transition    : all .3s ease;
+        }
+    }
+}
+
+select{
+    height: 37px !important;
+}
+
+.sidebar-elements{
+    li{
+        i{
+            margin-right : 10px
+        }
+    }
+}
+
+.left-sidebar-toggle{
+    cursor: pointer;
+
+    &:after, &:before{
+        border-style: none !important;
+        color: transparent !important;
+        background-color: transparent !important;
+    }
+}
+
+.carousel-item.active{
+    display: flex !important;
+    justify-content: center !important;
+}
